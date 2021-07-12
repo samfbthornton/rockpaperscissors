@@ -18,7 +18,7 @@ public class RPSGame {
 			result = RockPaperScissors.SCISSORS;
 		}
 
-		System.out.println("You called " + call + " and I called " + result);
+		System.out.println("You called " + call + " and I called " + result + "!");
 		if (call == RockPaperScissors.ROCK && result == RockPaperScissors.SCISSORS) {
 			System.out.println("YOU WIN! \nYour ROCK blunts my SCISSORS");
 		} else if (call == RockPaperScissors.ROCK && result == RockPaperScissors.ROCK) {
@@ -42,6 +42,7 @@ public class RPSGame {
 		}
 
 		return result;
+
 	}
 
 }
